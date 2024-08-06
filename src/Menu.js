@@ -78,7 +78,7 @@ const SubCenter = styled.div`
 
 const SubRight = styled.div`
   width: 80px;
-  margin: 0px 90px;
+  margin: 0px 110px;
   padding: 0px 10px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -104,7 +104,7 @@ export function Menu() {
         </Img>
         <Center>
           <MenuBtn to="/about">학원소개</MenuBtn>
-          <MenuBtn to="/lecture">강의</MenuBtn>
+          <MenuBtn to="/lecturelist">강의</MenuBtn>
           <MenuBtn to="/store">스토어</MenuBtn>
           <MenuBtn to="/test"> 모의고사</MenuBtn>
           <MenuBtn to="/game">게임</MenuBtn>
@@ -128,7 +128,7 @@ export function Menu() {
             <SubMenuBtn to="/about">오시는 길</SubMenuBtn>
           </div>
           <div>
-            <SubMenuBtn to="/lectureList">전체강의</SubMenuBtn>
+            <SubMenuBtn to="/lecturelist">전체강의</SubMenuBtn>
             <SubMenuBtn to="/mylecture">수강현황</SubMenuBtn>
           </div>
           <div>
