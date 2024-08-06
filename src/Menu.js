@@ -26,6 +26,9 @@ const Header = styled.div`
 
   &:hover + ${SubMenu} {
     display: grid;
+    transform: translateY(0);
+    transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1),
+      opacity 1s cubic-bezier(0.25, 1, 0.5, 1);
   }
 `;
 
