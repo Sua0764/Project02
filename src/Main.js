@@ -339,13 +339,19 @@ const Box8Wrappper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+`;
 
-  & > div {
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+const Text8 = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const Button8wrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 `;
 
 const LevelBtn = styled.div`
@@ -356,7 +362,7 @@ const LevelBtn = styled.div`
   border-radius: 50px;
   background-color: white;
   text-align: center;
-  margin: 50px 0px;
+  margin: 50px 50px;
   padding: 35px 15px 15px 15px;
 `;
 
@@ -479,14 +485,14 @@ export function Main() {
           </Box7>
           <Box8>
             <Box8Wrappper>
-              <div>
+              <Text8>
                 <Text8_1>모의고사를 풀어</Text8_1>
                 <Text8_2>명예의 전당에 이름을 올려라</Text8_2>
-              </div>
-              <div>
+              </Text8>
+              <Button8wrapper>
                 <LevelBtn>나의 레벨 확인하기</LevelBtn>
                 <LevelBtn>모의고사 바로가기</LevelBtn>
-              </div>
+              </Button8wrapper>
             </Box8Wrappper>
           </Box8>
         </Body>
