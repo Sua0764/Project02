@@ -362,7 +362,7 @@ const LevelBtn = styled.div`
   border-radius: 50px;
   background-color: white;
   text-align: center;
-  margin: 50px 50px;
+  margin: 50px;
   padding: 35px 15px 15px 15px;
 `;
 
